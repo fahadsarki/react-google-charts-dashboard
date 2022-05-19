@@ -1,0 +1,27 @@
+{
+  "description": null,
+  "main": "index.tsx",
+  "dependencies": {
+    "@cubejs-client/core": "0.29.23",
+    "@cubejs-client/react": "0.29.23",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-google-charts": "^4.0.0",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "keywords": [],
+  "name": "cube-react-google-charts-dashboard-example-forked",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

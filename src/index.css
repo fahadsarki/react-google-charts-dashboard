@@ -1,0 +1,26 @@
+body {
+  padding: 5em;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 5em;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5em;
+}
+
+@media (max-width: 600px) {
+  .group {
+    grid-template-columns: 1fr;
+  }
+}
+
+.google-visualization-table,
+.google-visualization-table-table {
+  width: 100%;
+}
